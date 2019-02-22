@@ -38,14 +38,14 @@ Primero que nada, debemos saber que el concepto de encapsulamiento podemos tomar
 1. El primer concepto tiene que ver con la abstracción. Se refiere a la habilidad que tenemos para agrupar los diferentes elementos y atributos en un entorno definido, por esto, también se le llama encapsulación abstracta.
 2. El segundo concepto tambien se conoce como __ocultamiento.__ Esto refiere a mantener ocultos los elementos que el usuario no necesita o no le importa saber, para que pueda tener una experiencia más comprensible. Esto ofrece varias ventajas, por ejemplo, nos aseguramos de que el usuario sea controlado por nuestras limitaciones, para que no realice intervenciones no deseadas en nuestro código. Otra ventaja sería que puedes hacer mejoras a tu código sin afectar como lo utilicen.
 
-![Encapsulación](./img/Encapsulacion1 "Ejemplo donde el ocultamiento se hace correctamente")
-![No Encapsulación](./img/Encapsulacion2 "Ejemplo donde no hay ocultamiento")
+![Encapsulación](./img/Encapsulacion1.jpg "Ejemplo donde el ocultamiento se hace correctamente")
+![No Encapsulación](./img/Encapsulacion2.jpg "Ejemplo donde no hay ocultamiento")
 
 ## Herencia
 La herencia es uno de los conceptos fundamentales de la programación OO. Se refiere a la habilidad de traspasar los atributos y métodos de una clase a otra. Es útil al momento de que necesitemos una clase similiar a otra, pero que se requieran de atributos adicionales. Por ejemplo: si se tiene una clase automóvil, tendra ciertas características, como podrían ser el color, tamaño, etc. Pero también podemos fabricar una clase llamada camioneta, entonces, la camioneta es un tipo de auto, por lo tanto se podrían heredar los atributos que ya hicimos en automóvil, mientras agregamos otros especiales solamente para la camioneta.
 
-![Automóvil](./img/Herencia1 "Aquí se ilustra la clase automóvil" )
-![Camioneta](./img/Herencia2 "Y aquí la camioneta, notese que hay partes compartidas, pero otras se agregan")
+![Automóvil](./img/Herencia1.jpeg "Aquí se ilustra la clase automóvil" )
+![Camioneta](./img/Herencia2.jpg "Y aquí la camioneta, notese que hay partes compartidas, pero otras se agregan")
 
 ##Lenguaje de modelado unificado
 Conocido por sus siglas en inglés UML, es u lenguaje diseñado para planos de software, se utiliza para visualizar, construir y documentar los artefactos que conforman a un sistema. Utiliza una variedad de simbolos, notaciones y diagramas estandar para modelar programas orientados a objetos.
@@ -66,9 +66,9 @@ A continuación, los diagramas más prominentes en el lenguaje de modelado unive
 5. Diagrama use-case.- Muestran la funcionalidad de un sistema usando casos y actores
 6. Diagrama de actividad.- Muestran la parte dinámica de un sistema, enseñando el flujo de actividad a actividad, que resultan en cambios al sistema
 7. Diagrama de secuencias.- Describen actividades entre clases, via mensajes
- ![Clases](./img/Diagrama "Un ejemplo de diagrama de clases" )
+ ![Clases](./img/Diagrama.png "Un ejemplo de diagrama de clases" )
 
 ##Propuesta de una máquina vendedora
 La siguiente será una maquina expendedora de dispositivos moviles. El usuario al introducir una cierta cantidad de dinero, seleccionar su artículo deseado, y aparte deja al usuario elegir un plan de cobertura en su nuevo dispositivo. Basicamente actuará como un centro de atención de telefonía, pero automatizado.
 
-![Diagrama_practica](./img/Diagrama2)
+![Diagrama_practica](./img/Diagrama2.PNG)
