@@ -23,7 +23,7 @@ namespace Tarea2
         {
             Console.WriteLine("Nombre: {0} \n Edad: {1}", nombre, edad);
             //Aquí se utiliza el this para pasar el objeto
-            Console.WriteLine("Calificación: {1}", Puntos.Puntos_ex(this));
+            Console.WriteLine("Calificación: {0}", Puntos.Puntos_ex(this));
         }
 
         //retorno del valor calificacion
@@ -63,16 +63,32 @@ namespace Tarea2
         public void Imprime()
         {
             Console.WriteLine("Valor del dado: {0} \n Color del dado: {1}", valor,color);
+
+
         }
 
-        public static Dado operator ==(Dado uno, Dado dos, Dado tres)
-        {
-            return new Dado(uno.valor= dos.valor = tres.valor); 
+        public static bool operator ==(Dado uno, Dado dos)
+        {                      
+                return uno.valor==dos.valor;
+            
         }
 
-        public static Dado operator !=(Dado uno, Dado dos, Dado tres)
+        public static bool operator !=(Dado uno, Dado dos)
         {
-            return new Dado (uno.valor != dos.valor != tres.valor);
+            return uno.valor!=dos.valor;
+        
+        }
+
+        public static bool operator <(Dado uno, Dado dos)
+        {
+            return uno.valor<dos.valor;
+
+        }
+
+        public static bool operator>(Dado uno, Dado dos)
+        {
+            return uno.valor>dos.valor;
+          
         }
     }
 
@@ -95,6 +111,7 @@ namespace Tarea2
             Dado uno=new Dado("rojo",4);
             Dado dos=new Dado("azul",1);
             Dado tres=new Dado("blanco",6);
+
 
         }
     }
