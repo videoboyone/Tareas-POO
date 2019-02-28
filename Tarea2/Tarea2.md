@@ -68,7 +68,7 @@ Los parámetros declarados para métodos sin *in*, *ref* o *out* se pasan a un m
 
 ## 2.5  Constructores y destructores: declaración, uso y aplicaciones.
 ### Constructores
-Los constructores son métodos que se utilizan dentro de clases y se usan para inicializar un nuevo objeto  de un tipo determinado. Los constructores utilizan el mismo nombre de la clase que los encapsula. Para un ejemplo de constructor, ir a program.cs, línea 52.
+Los constructores son métodos que se utilizan dentro de clases y se usan para inicializar un nuevo objeto  de un tipo determinado. Los constructores utilizan el mismo nombre de la clase que los encapsula. Para un ejemplo de constructor, ir a program.cs.
 Un constructor predeterminado es aquel que no toma parámetros. En caso de que una clase no tenga un constructor, se le asigna un constructor público mediante el compilador de C#.
 Los constructores de un tipo *struct* son similares, pero no puede haber uno explícito, ya que el compilador proporciona uno con valores predeterminados.
 Cualquier constructor puede ser marcado como `public`, `private`, `protected`, `internal` o `protectedinternal`, y definen como el usuario puede construir una clase. También se puede declarar de la manera `static` y se le de prioridad ante cualquier campo estático y se usan para instanciar miembros de una clase estática.

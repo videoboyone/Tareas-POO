@@ -45,12 +45,15 @@ namespace Tarea2
         }
     }
 
+
+
+
     //Clase Dado para el punto 2.7
     class Dado
     {
         //Atributos del dado
-        private string color;
-        private int valor;
+        public string color;
+        public int valor;
 
         //Métodos
         public Dado(string color, int valor)
@@ -67,29 +70,37 @@ namespace Tarea2
 
         }
 
-        public static bool operator ==(Dado uno, Dado dos)
-        {                      
-                return uno.valor==dos.valor;
-            
+        public string Imprime(string n)
+        {
+            return "hecho por Daniel"+n;
+
         }
 
-        public static bool operator !=(Dado uno, Dado dos)
+        //Sobrecarga de operadores relacionales, utilizando el estado del dato booleano que va a regresar
+
+        public static bool operator ==(Dado a, Dado b)
         {
-            return uno.valor!=dos.valor;
+           return a.valor==b.valor;
+        }
+
+        public static bool operator !=(Dado a, Dado b)
+        {
+        return a.valor!=b.valor;
         
         }
 
-        public static bool operator <(Dado uno, Dado dos)
+        public static bool operator <(Dado a, Dado b)
         {
-            return uno.valor<dos.valor;
-
+        return a.valor<b.valor;
         }
 
-        public static bool operator>(Dado uno, Dado dos)
+        public static bool operator>(Dado a, Dado b)
         {
-            return uno.valor>dos.valor;
-          
+            return a.valor>b.valor;
+     
         }
+
+        
     }
 
 
@@ -111,6 +122,30 @@ namespace Tarea2
             Dado uno=new Dado("rojo",4);
             Dado dos=new Dado("azul",1);
             Dado tres=new Dado("blanco",6);
+
+           if(uno.valor==dos.valor && uno.valor==tres.valor)
+           {
+               uno.Imprime();
+
+           }
+           else if(uno.valor>dos.valor && uno.valor>tres.valor)
+           {
+               uno.Imprime();
+
+           }
+           else if (dos.valor>uno.valor && dos.valor>tres.valor)
+           {
+               dos.Imprime();
+           }
+           else if (tres.valor>uno.valor && tres.valor>dos.valor)
+           {
+               tres.Imprime();
+
+           }
+           
+           
+            
+
 
 
         }
