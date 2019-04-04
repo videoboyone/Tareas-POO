@@ -15,14 +15,14 @@ En la herencia, encontramos dos tipos de clases
 ## 3.2 Diagrama UML de la clase figura, rectángulo y círculo.
 
 
-![Ejemplo](C:\Users\Dell\Documents\GitHub\Tareas-POO\Tarea3\Images\UML.PNG)
+![Ejemplo](./Images/UML.PNG)
 
 
 Aquí podemos observar una relación de herencia entre la clase Figura, que en este caso es la clase madre, y las clases de círculo y rectángulo, que son las clases derivadas o hijas. Podemos ver que están unidas por una flecha, apuntando hacia la dirección de la clase base, lo cuál indica la relación de herencia. También podemos observar el hecho de que en las clase del círculo, solo se agrega un nuevo atributo *int radio*, y la razón por la cuál esta ahí, es que el radio es una propiedad que tienen los círculos y no todas las figuras.
 En la clase base vemos que están la mayoría de los atributos, por lo que ya no hay necesidad de volverlos a escribir en cada una de las clases que heredan de Figura.
 
 
-![Ejemplo](C:\Users\Dell\Documents\GitHub\Tareas-POO\Tarea3\Images\diagrama.png)
+![Ejemplo](./Images/diagrama.png)
 
 
 *Ejemplo de una clase madre, con sus clases derivadas.*
@@ -34,7 +34,7 @@ En la clase base vemos que están la mayoría de los atributos, por lo que ya no
 * **Herencia múltiple**: El tipo de herencia que como su nombre indica, una clase derivada tiene permitido heredar de más de una clase base.
 
 
-![Ejemplo](C:\Users\Dell\Documents\GitHub\Tareas-POO\Tarea3\Images\H01.JPG)
+![Ejemplo](./Tarea3/Images\H01.JPG)
 
 
 *Ejemplo de una herencia múltiple, dónde la clase hombre hereda tanto de carnívoro como de herbívoro*
@@ -45,7 +45,7 @@ No esta permitido heredar de varias clases. Existe otra forma para poder impleme
 ## 3.5 Programa de Figuras
 *Ver el program.cs*
 
-
+Fuentes bibliográficas
 https://es.ccm.net/contents/411-poo-herencia
 http://jbgarcia.webs.uvigo.es/asignaturas/TO/cursilloCpp/15_herencia_simple.html
 
