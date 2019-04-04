@@ -34,7 +34,7 @@ En la clase base vemos que están la mayoría de los atributos, por lo que ya no
 * **Herencia múltiple**: El tipo de herencia que como su nombre indica, una clase derivada tiene permitido heredar de más de una clase base.
 
 
-![Ejemplo](./Tarea3/Images/H01.JPG)
+![Ejemplo](./Images/H01.JPG)
 
 
 *Ejemplo de una herencia múltiple, dónde la clase hombre hereda tanto de carnívoro como de herbívoro*
