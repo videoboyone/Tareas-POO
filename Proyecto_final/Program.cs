@@ -5,6 +5,8 @@ using System.Collections.Generic;
 namespace Proyecto
 {
 
+//Proyecto final Programación Orientada a objetos
+//Hecho por: Daniel García Chacón
     class Producto
     {
         public string codigo;
